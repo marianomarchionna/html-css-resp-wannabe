@@ -84,6 +84,10 @@ img {
     margin-top: 0px;
   }
 
+  img {
+    height: 200px;
+  }
+
   h3 {
     font-size: 35px;
     margin: 0;
@@ -93,6 +97,7 @@ img {
   #steps,
   #why {
     font-size: 30px;
+    font-weight: 100;
   }
 
   .row {
