@@ -104,13 +104,11 @@ img {
     margin-top: 0px;
     padding-top: 20px;
   }
-
   #lezioni .row,
   #why .row {
     background-color: #F2F2CD;
     padding-bottom: 20px;
   }
-
   .container.grey {
     background-color: white;
 }
@@ -121,7 +119,6 @@ img {
     width: 100%;
     float: none;
   }
-
   #lezioni .row>.right {
     padding-top: 30px;
   }
@@ -133,12 +130,10 @@ img {
     float: none;
     width: 100%;
   }
-
   #steps .central, 
   #steps .right {
     padding-top: 30px;
   }
-
   #steps {
     padding-bottom: 30px;
   }
@@ -149,7 +144,6 @@ img {
   #why .row>.third {
     margin-top: 30px;
   }
-
   hr {
     border: 1px solid black;
     width: 97%;
@@ -157,77 +151,28 @@ img {
   /* fine sezione why  */
 }
 
-/* bonus  */
-@media (max-width: 768px) {
-  /* common */
+/* bonus */
+@media (min-width: 420px) and (max-width: 768px) {
+  body {
+    background-color: green;
+    font-family: cursive;
+  }
+
   h1 {
     color: red;
   }
 
-  img {
-    height: 400px;
-  }
-  
-  #lezioni,
-  #steps,
-  #why {
-    font-size: 30px;
-    font-weight: 100;
-  }
-
-  .row {
-    margin-top: 0px;
-    padding-top: 20px;
-  }
-
-  #lezioni .row,
-  #why .row {
-    background-color: #F2F2CD;
-    padding-bottom: 20px;
-  }
-
-  .container.grey {
-    background-color: white;
-}
-  /* fine common */
-  /* sezione lezioni */
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-    float: none;
-  }
-
-  #lezioni .row>.right {
-    padding-top: 30px;
-  }
-  /* fine sezione lezioni */
-  /* sezione steps  */
-  #steps .row>.left,
-  #steps .row>.central, 
-  #steps .row>.right {
-    float: none;
-    width: 100%;
-  }
-
-  #steps .central, 
-  #steps .right {
-    padding-top: 30px;
-  }
-
-  #steps {
-    padding-bottom: 30px;
-  }
-  /* fine sezione steps  */
-  /* sezione why  */
-  #why .row>.first, 
-  #why .row>.second, 
-  #why .row>.third {
-    margin-top: 30px;
+  h3 {
+    color: blue;
   }
 
   hr {
-    border: 1px solid black;
-    width: 97%;
+    border: 1px solid yellow;
+    width: 50%;
   }
-  /* fine sezione why  */
+
+  .row {
+    color: violet;
+    background-color: teal;
+  }
 }
