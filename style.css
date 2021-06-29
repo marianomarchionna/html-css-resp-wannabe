@@ -90,10 +90,14 @@ img {
   #why {
     font-size: 30px;
   }
+
+  .row {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
   /* fine common */
   /* sezione lezioni */
   #lezioni .row {
-    margin-top: 0px;
     background-color: #F2F2CD;
     padding-bottom: 10px;
   }
@@ -108,4 +112,17 @@ img {
     padding-top: 30px;
   }
   /* fine sezione lezioni */
+  /* sezione steps  */
+  #steps .row>.left,
+  #steps .row>.central, 
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #steps .central, 
+  #steps .right {
+    padding-top: 30px;
+  }
+  /* fine sezione steps  */
 }
