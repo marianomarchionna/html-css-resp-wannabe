@@ -77,30 +77,21 @@ img {
   /* common */
   body { 
     margin: 0px;
+    font-size: 12px;
   }
-
   h1 {
-    font-size: 50px;
+    font-size: 1.6em;
     margin-top: 0px;
   }
-
   img {
-    height: 200px;
+    height: 100px;
   }
-
   h3 {
-    font-size: 35px;
+    font-size: 1.2em;
     margin: 0;
   }
-  
-  #lezioni,
-  #steps,
-  #why {
-    font-size: 30px;
-    font-weight: 100;
-  }
-
   .row {
+    width: 100%;
     margin-top: 0px;
     padding-top: 20px;
   }
@@ -142,6 +133,7 @@ img {
   #why .row>.first, 
   #why .row>.second, 
   #why .row>.third {
+    width: 100%; 
     margin-top: 30px;
   }
   hr {
@@ -156,14 +148,17 @@ img {
   body {
     background-color: green;
     font-family: cursive;
+    font-size: 12px;
   }
 
   h1 {
     color: red;
+    font-size: 1.6em;
   }
 
   h3 {
     color: blue;
+    font-size: 1.2em;
   }
 
   hr {
